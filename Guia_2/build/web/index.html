@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+
+<!<!-- Tarea:  PC21-I04-001  -->
+
+<html>
+    <head>
+        <link rel="stylesheet" href="Estilos.css" type="text/css"/>
+
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body class="todo">
+        <div class="titulo" >FARMACIA EL BUEN VIVIR</div>
+        
+        <form class="formu"  action="ServletPrincipal" method="post" >
+            <a class="titu">Nombre del producto:</a> <br>
+        <input type="text" name="tfNombres" size=70 required><br>
+        <a class="titu">Cantidad:</a> <br>
+        <input type="number" name="tfCantidad" required><br>
+        <a class="titu">Precio Producto:</a> <br>
+        <input type="number" name="tfPrecios" step="0.01" required>
+        <p>
+        <a class="titu">Presentacion producto:</a> <br>
+        <input type="radio" name="rbPresentacion" value="Tarro">Tarro<br>
+        <input type="radio" name="rbPresentacion" value="Pomada">Pomada<br>
+        <input type="radio" name="rbPresentacion" value="Pastillas">Pastillas<br>
+        <input type="radio" name="rbPresentacion" value="Jarabe">Jarabe
+        <p>
+        <p>
+        <a class="titu">Clasificacion producto:</a> <br>
+        <input type="radio" name="rbOpinion" value="recien nacidos">recien nacidos<br>
+        <input type="radio" name="rbOpinion" value="niños y jovenes">niños y jovenes<br>
+        <input type="radio" name="rbOpinion" value="adultos">adultos
+        <p>
+        <a class="titu">Descripcion del producto:</a> <br>
+        <textarea name="taComentarios" rows=6 cols=40></textarea>
+        <p>
+        <input class="boton" type="submit" name="btEnviar" value="ENVIAR">
+        <input class="boton" type="reset" name="btLimpiar" value="LIMPIAR">
+        </form>
+           
+    </body>
+</html>

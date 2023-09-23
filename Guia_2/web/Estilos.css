@@ -1,0 +1,34 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+
+.todo{
+    background: cadetblue;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.formu {
+    background-color: yellow;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+    margin-bottom: auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.titu{
+    color: blue;
+}
+
+.boton{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
