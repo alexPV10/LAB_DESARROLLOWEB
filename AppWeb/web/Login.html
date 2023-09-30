@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Login Farmacia</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Estilo.css"/>
+        <link rel="stylesheet" href="Estilos.css" type="text/css">
+
+    </head>
+    <body class="log">
+        
+        <form method="POST" action="/AppWeb/ServletPrincipal?accion=Login" id="formLogin">
+            <div id="resultLogin" ></div>
+            <div class="temaLog"><h1>BIENVENIDO AL SISTEMA DE LA FARMACIA</h1> </div>
+            <div class="usu" ><label>Usuario: </label> </div>
+            <div class="tabla"><input type="text" name="tfUsuario" id="idtfUsuario" class="caja"> </div>
+            <div class="usu" ><label>Contraseña: </label> </div>
+            <div class="tabla"><input type="password" name="tfContrasenia" id="idtfContrasenia"  class="caja"> </div>
+            <div class="ultimo"><input type="submit" value="Iniciar Sesion" class="ini"></div>
+            
+        </form>
+        
+    </body>
+</html>

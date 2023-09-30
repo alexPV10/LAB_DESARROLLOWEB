@@ -1,0 +1,83 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+
+
+
+.todo {
+     background: white;
+
+}
+
+.tema{
+    text-align: center;
+    padding: auto;
+}
+
+.menu {
+    font-size: 25px;
+    font-family: fantasy;
+    text-align: center;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+.uno {
+    color: red; 
+    text-decoration: none;
+}
+
+
+/*
+Pagina del LOGIN
+*/
+
+.log {
+    background: cadetblue;
+}
+
+.temaLog{
+    text-align: center;
+}
+
+.usu{
+    margin-left: 30%;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.tabla{
+    margin-left: 30%;
+}
+
+.caja{
+    width: 500px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.ultimo{
+    margin-left: 37%;
+}
+
+.ini{
+    width: 300px;
+    height: 25px;
+    color: black;
+    font-size: 15px;
+}
+
+/* COLOR DE LAS PAGINAS*/
+.lab {
+    text-align: center;
+    color: white;
+
+}
+
+.todolab {
+    background: cadetblue;
+}
