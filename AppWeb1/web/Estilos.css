@@ -1,0 +1,112 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+
+
+
+.todo {
+     background: white;
+
+}
+
+.tema{
+    text-align: center;
+    padding: auto;
+}
+
+.menu {
+    font-size: 25px;
+    font-family: fantasy;
+    text-align: center;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+.uno {
+    color: red; 
+    text-decoration: none;
+}
+
+
+/*
+Pagina del LOGIN
+*/
+
+.log {
+    background: cadetblue;
+}
+
+.temaLog{
+    text-align: center;
+}
+
+.usu{
+    margin-left: 30%;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.tabla{
+    margin-left: 30%;
+}
+
+.caja{
+    width: 500px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+
+.ultimo{
+    margin-left: 37%;
+}
+
+.ini{
+    width: 300px;
+    height: 25px;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.regre{
+    width: 300px;
+    height: 25px;
+    color: black;
+    font-size: 15px;
+    margin-left: 37%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+/* COLOR DE LAS PAGINAS*/
+.lab {
+    text-align: center;
+    color: white;
+
+}
+
+.todolab {
+    background: cadetblue;
+}
+
+.mira h1 {
+    color: green;
+    font-size: 40px;
+    padding-left: 15%;
+    padding-top: 5%; 
+}
+
+.error404 {
+    width: 400px;
+    height: 40px;
+    margin-left: 36%;
+    margin-top: 20%;
+    font-size: 25px;
+    cursor: pointer;
+
+}
