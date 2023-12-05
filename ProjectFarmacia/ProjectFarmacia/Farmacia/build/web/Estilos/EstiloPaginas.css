@@ -1,0 +1,57 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13 nov 2023, 19:52:15
+    Author     : Tambo
+*/
+
+/* GESTIONAR EMPLEADOS */
+.temaEmpleado{
+    width: 100%;
+    height: 45px;
+    font-size: 35px;
+    color: white;
+    background: #008B8B;
+    text-align: center;
+}
+
+.listadoEmpleado{
+    font-size: 24px;
+    color: #008B8B;
+}
+
+.enlaAgre{
+    font-size: 19px;
+    text-decoration: none;
+    color: #20B2AA;
+    margin-left: 80%;
+    cursor: grab;
+}
+
+.ajuste{
+    margin-left: 7%;
+    text-align: center;
+    font-size: 19px;
+}
+
+.nomEmple{
+    font-size: 20px;
+    text-align: center;
+    background: #008B8B;
+}
+
+.boton{
+    width: 25%;
+    height: 30px;
+    background: #20B2AA;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 37%;
+    border: 1px solid black;
+}
+
+

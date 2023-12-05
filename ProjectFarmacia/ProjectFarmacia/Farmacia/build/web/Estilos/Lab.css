@@ -1,0 +1,113 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 16 nov 2023, 12:28:47
+    Author     : Tambo
+*/
+
+
+/* Gestionar Laboratorios */
+.temaLab{
+    width: 100%;
+    height: 45px;
+    font-size: 35px;
+    color: white;
+    background: #008B8B;
+    text-align: center;
+}
+
+.listadoLab{
+    font-size: 24px;
+    color: #008B8B;
+}
+
+.enlaLab{
+    font-size: 19px;
+    text-decoration: none;
+    color: #20B2AA;
+    margin-left: 80%;
+    cursor: grab;
+}
+
+.ajusLab{
+    text-align: center;
+    font-size: 19px;
+    margin-left: 12%;
+}
+
+.nomLab{
+    font-size: 20px;
+    text-align: center;
+    background: #008B8B;
+}
+
+.botonLab{
+    width: 25%;
+    height: 30px;
+    background: #20B2AA;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 37%;
+    border: 1px solid black;
+}
+
+.acci{
+    cursor: pointer;
+}
+
+/* Gestionar Proveedor */
+.temaProve{
+    width: 100%;
+    height: 45px;
+    font-size: 35px;
+    color: white;
+    background: #008B8B;
+    text-align: center;
+}
+
+.listadoProve{
+    font-size: 24px;
+    color: #008B8B;
+}
+
+.enlaProve{
+    font-size: 19px;
+    text-decoration: none;
+    color: #20B2AA;
+    margin-left: 80%;
+    cursor: grab;
+}
+
+.ajusteProve{
+    text-align: center;
+    font-size: 19px;
+    margin-left: 5%;
+}
+
+.nomProve{
+    font-size: 20px;
+    text-align: center;
+    background: #008B8B;
+}
+
+.botonProvee{
+    width: 25%;
+    height: 30px;
+    background: #20B2AA;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 37%;
+    border: 1px solid black;
+}
+
+.acci{
+    cursor: pointer;
+}
+
+
